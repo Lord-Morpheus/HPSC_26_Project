@@ -88,19 +88,19 @@ test-all: test-small test-medium test-large
 
 # Visualize results
 plot: all
-	python scripts/plot_results.py output/final_grid.txt output/
+	python3 scripts/plot_results.py output/final_grid.txt output/
 
 # Performance analysis (grid scaling)
 analyze-grid: all
-	python scripts/analyze_performance.py $(TARGET) grid
+	python3 scripts/analyze_performance.py $(TARGET) grid
 
 # Performance analysis (thread scaling)
 analyze-threads: all
-	python scripts/analyze_performance.py $(TARGET) threads
+	python3 scripts/analyze_performance.py $(TARGET) threads
 
 # Full performance analysis
 analyze-all: all
-	python scripts/analyze_performance.py $(TARGET) both
+	python3 scripts/analyze_performance.py $(TARGET) both
 
 # Help target
 help:
