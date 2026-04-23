@@ -8,11 +8,6 @@ obj/
 *.dll
 *.dylib
 
-# CMake
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
 *.cmake
 
 # IDE and editor files
