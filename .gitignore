@@ -1,0 +1,52 @@
+# Build directories
+build/
+bin/
+obj/
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.user
+*.pro.user
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env
+
+# Output and data
+output/*.txt
+output/*.png
+data/*.txt
+data/*.csv
+
+# Executables
+*.exe
+*.out
+heat_solver
+heat_solver.exe
+
+# Log files
+*.log
